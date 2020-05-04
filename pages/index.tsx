@@ -25,7 +25,7 @@ export default () => {
 
   return (
     <>
-      <GlobalStyle></GlobalStyle>
+      <GlobalStyle />
       <Root>
         {cards.map(({ imageUrl, id }) => (
           <Card
