@@ -1,49 +1,17 @@
-# TypeScript & Styled Components Next.js example
+# Memory game task
 
-This is a really simple project that show the usage of Next.js with TypeScript and Styled Components.
+> You are asked to create a mind memory game using React or any component based library / framework of choice. An example of this can be found here.
+>
+> 1. Generate a board containing random pairs of cards.
+> 2. To begin all the cards are face down. When clicked they will unveil either a number, image, or color (you choose).
+> 3. When 2 cards are successfully matched they will remain shown until the game is over.
+> 4. If 2 cards are not matched successfully the content will be hidden once again.
+> 5. When all cards are matched successfully a message is displayed to the user telling them they have won and after the board is reset.
 
-## Deploy your own
+## Runnning prod build
 
-Deploy the example using [Vercel](https://vercel.com):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/zeit/next.js/tree/canary/examples/with-typescript-styled-components)
-
-## How to use it?
-
-### Using `create-next-app`
-
-Execute [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npm init next-app --example with-typescript-styled-components with-typescript-app
-# or
-yarn create next-app --example with-typescript-styled-components with-typescript-app
 ```
-
-### Download manually
-
-Download the example:
-
-```bash
-curl https://codeload.github.com/zeit/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-typescript-styled-components
-cd with-typescript-styled-components
-```
-
-Install it and run:
-
-```bash
-npm install
-npm run dev
-# or
 yarn
-yarn dev
+yarn build
+yarn start
 ```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-## Notes
-
-This is an amalgamation of the 2 existing examples:
-
-- [with-typescript](https://github.com/zeit/next.js/tree/canary/examples/with-typescript)
-- [with-styled-components](https://github.com/zeit/next.js/tree/canary/examples/with-styled-components)
